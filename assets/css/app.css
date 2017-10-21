@@ -8,6 +8,7 @@
 body {
     color: #090909;
     background-color: #eaf0ce;
+    font-family: 'Nunito', sans-serif;
 }
 
 h2, h3 {
@@ -105,11 +106,11 @@ p {
  * Choose a different color based on the type of pricing table.
  */
 .pricing-table-free .pricing-table-header {
-    background: #519251;
+    background: #f9d400;
 }
 
 .pricing-table-biz .pricing-table-header {
-    background: #2c4985;
+    background: #456175;
 }
 
 /*
@@ -118,7 +119,7 @@ p {
  */
 .pricing-table-header {
     background: #111;
-    color: #fff;
+    color: #eaf0ce;
 }
 .pricing-table-header h2 {
     margin: 0;
@@ -138,15 +139,13 @@ p {
     margin: 0.2em 0 0;
     font-weight: 100;
 }
-    .pricing-table-price span {
-        display: block;
-        text-transform: uppercase;
-        font-size: 0.2em;
-        padding-bottom: 2em;
-        font-weight: 400;
-        color: rgba(255, 255, 255, 0.5);
-        *color: #fff;
-    }
+.pricing-table-price span {
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.2em;
+    padding-bottom: 2em;
+    font-weight: 400;
+}
 
 
 
@@ -179,9 +178,8 @@ p {
  * This inherits from Pure Button.
  */
 .button-choose {
-    border: 1px solid #ccc;
+    border: 0px;
     background: #fff;
-    color: #333;
     border-radius: 2em;
     font-weight: bold;
     position: relative;
@@ -189,18 +187,14 @@ p {
 }
 
 .information-head {
-    color: black;
     font-weight: 500;
 }
 
 .footer {
     background: #111;
-    color: #888;
+    color: #eaf0ce;
     text-align: center;
 }
-    .footer a {
-        color: #ddd;
-    }
 
 
 
