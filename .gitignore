@@ -1,5 +1,6 @@
 # Own files
 *.bat
+*Thumbs.db
 
 # Binaries for programs and plugins
 *.exe
