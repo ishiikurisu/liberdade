@@ -1,0 +1,8 @@
+{
+	"ImportPath": "github.com/ishiikurisu/liberdade",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v75",
+	"Packages": [
+		"./..."
+	]
+}
