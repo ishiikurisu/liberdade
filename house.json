@@ -1,0 +1,8 @@
+{
+    "build": {
+        "local": false,
+        "commands": [
+            "go build github.com/ishiikurisu/liberdade"
+        ]
+    }
+}
