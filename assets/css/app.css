@@ -45,6 +45,11 @@ p {
     padding: .5em .7em;
 }
 
+.pure-menu-heading {
+    font-family: 'Pacifico', cursive;
+    text-transform: capitalize !important;
+}
+
 
 /*
  * -- BANNER --
