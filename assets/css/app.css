@@ -21,6 +21,13 @@ p {
     line-height: 1.6em;
 }
 
+i.fa {
+    color: #B80C09;
+}
+
+i.fo {
+    color: #eaf0ce;
+}
 
 /*
  * -- Layout Styles --
