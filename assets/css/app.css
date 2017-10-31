@@ -29,6 +29,12 @@ i.fo {
     color: #eaf0ce;
 }
 
+a:link, a:hover, a:visited {
+    color: #090909;
+    text-decoration-style: solid;
+    text-decoration-color: #B80C09;
+}
+
 /*
  * -- Layout Styles --
  */
