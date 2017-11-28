@@ -1,4 +1,4 @@
-final color WHITE = #EAF0CE;
+final color WHITE = #dfe5e6;
 final color BLACK = #090909;
 final color RED = #B80C09;
 

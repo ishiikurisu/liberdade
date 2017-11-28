@@ -7,7 +7,7 @@
  */
 body {
     color: #090909;
-    background-color: #eaf0ce;
+    background-color: #dfe5e6;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -26,7 +26,7 @@ i.fa {
 }
 
 i.fo {
-    color: #eaf0ce;
+    color: #dfe5e6;
 }
 
 a:link, a:hover, a:visited {
@@ -84,7 +84,7 @@ a:link, a:hover, a:visited {
 .banner-head {
     vertical-align: middle;
     font-size: 2em;
-    color: #eaf0ce;
+    color: #dfe5e6;
     font-weight: 500;
     font-family: 'Pacifico', cursive;
     background-color: #090909;
@@ -137,7 +137,7 @@ a:link, a:hover, a:visited {
  */
 .pricing-table-header {
     background: #111;
-    color: #eaf0ce;
+    color: #dfe5e6;
 }
 .pricing-table-header h2 {
     margin: 0;
@@ -210,7 +210,7 @@ a:link, a:hover, a:visited {
 
 .footer {
     background: #111;
-    color: #eaf0ce;
+    color: #dfe5e6;
     text-align: center;
 }
 
