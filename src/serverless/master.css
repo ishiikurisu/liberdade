@@ -44,7 +44,7 @@ a:visited {
     text-transform: capitalize !important;
 }
 .banner {
-    background: url("https://raw.githubusercontent.com/ishiikurisu/liberdade/master/assets/pde/bg/bg.png") repeat;
+    background: url("https://raw.githubusercontent.com/ishiikurisu/liberdade/master/assets/img/bg.png") repeat;
     background-color: #b80c09;
     text-align: center;
     height: 200px;
@@ -131,6 +131,9 @@ a:visited {
     background: #111;
     color: #dfe5e6;
     text-align: center;
+}
+.pure-button-primary {
+    background-color: #B80C09;
 }
 @media(min-width: 767px) {
     .banner-head {
