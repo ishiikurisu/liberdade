@@ -85,8 +85,25 @@
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
         <script type="text/javascript">
             function sendEmail() {
-                alert("Erro ao enviar e-mail! Por favor, tente enviar pelo seu cliente de preferência.");
-                window.location = "/contato.html";
+                var name = document.getElementById('name').value;
+                var email = document.getElementById('email').value;
+                var message = document.getElementById('message').value;
+                var request = {
+                    text: "De: " + name + "<" + email + ">\r\nMensagem: " + message + "\r\n"
+                };
+                $.ajax({
+                    url: '???',
+                    type: 'POST',
+                    data: JSON.stringify(request),
+                    contentType: 'application/json',
+                    success: function(data) {
+                        alert("Contato feito! Aguarde por uma resposta a Liberdade Organização agora.\r\n" + data);
+                    },
+                    error: function(xmlHttpRequest, textStatus, errorThrown) {
+                        console.log(xmlHttpRequest);
+                        alert("Aconteceu algo de errado! Tente novamente mais tarde.\r\nStatus: " + textStatus + "\r\nError: " + errorThrown);
+                    }
+                });
             }
 
             function getContent() {
