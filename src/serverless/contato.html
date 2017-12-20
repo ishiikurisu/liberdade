@@ -104,7 +104,11 @@
                         alert((data === 'Ok!')? okMessage: createErrorMessage(data));
                     },
                     error: function(xmlHttpRequest, textStatus, errorThrown) {
-                        alert('Um erro ocorreu!\r\n' + textStatus + '\r\n' + errorThrown);
+                        if (errorThrown === '') {
+                            alert(okMessage);
+                        } else {
+                            alert('Um erro ocorreu!\r\n' + createErrorMessage(textStatus));
+                        }
                     }
                 });
             }
