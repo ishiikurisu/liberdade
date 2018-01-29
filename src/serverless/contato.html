@@ -112,21 +112,6 @@
                     }
                 });
             }
-
-            function getContent() {
-                $.ajax({
-                    'url' : 'https://failproof-checklists.5apps.com/checklists/lists.yml',
-                    'type' : 'GET',
-                    'data' : {
-                        'paramater1' : 'value',
-                        'parameter2' : 'another value'
-                    },
-                    'success' : function(data) {
-                        var p = document.getElementById('content');
-                        p.innerHTML = data;
-                    }
-                });
-            };
         </script>
     </body>
 </html>
