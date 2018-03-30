@@ -1,6 +1,6 @@
 final color WHITE = #dfe5e6;
 final color BLACK = #090909;
-final color RED = #B80C09;
+final color ORANGE = #F18F01;
 
 void setup()
 {

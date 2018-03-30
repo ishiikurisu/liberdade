@@ -1,6 +1,6 @@
 final color WHITE = #dfe5e6;
 final color BLACK = #090909;
-final color RED = #B80C09;
+final color ORANGE = #F18F01;
 
 void setup()
 {
@@ -11,7 +11,7 @@ void draw()
 {
     background(WHITE);
     noStroke();
-    fill(RED);
+    fill(ORANGE);
     triangle(0, 0, 0, height, width, height);
     save("bg.png");
     exit();
